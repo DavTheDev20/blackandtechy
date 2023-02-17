@@ -8,10 +8,29 @@
 }
 
 .cta-section {
-  margin: 2% 0;
+  margin: 4% 0;
   text-align: center;
 }
 
 .cta-section button {
   margin-top: 2%;
+}
+
+.content-section {
+  margin-top: 3%;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.news-post {
+  text-align: left;
+  width: 26%;
+  margin: 1.5% auto;
+}
+
+.post {
+  text-align: right;
+  width: 26%;
+  margin: 1.5% auto;
 }

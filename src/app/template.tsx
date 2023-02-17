@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Template({ children }: { children: React.ReactNode }) {
   return (
     <div>
@@ -11,7 +13,12 @@ export default function Template({ children }: { children: React.ReactNode }) {
           </li>
           <li>
             <a href="/">
-              <img src="https://img.icons8.com/material-outlined/48/null/filled-circle--v2.png" />
+              <Image
+                src="https://img.icons8.com/material-outlined/48/null/filled-circle--v2.png"
+                alt="logo image"
+                width={40}
+                height={40}
+              />
             </a>
           </li>
           <li>
